@@ -18,6 +18,7 @@ The rest of this document includes two other chapters as well as an appendix ann
 In the last chapter we will review the specified requirements, as well as a description of the different interfaces of the system, different techniques will be used to obtain the requirements in a more accurate way, adapting to the different users for which the software will be available, during the same Chapter will review the prioritization of the requirements. The appendices at the end of the document include all the results of the prioritization of requirements and a launching plan based on them.
 # Overall description
 ## Product perspective
+ChemicalLabels is aimed at different employees whose area of ​​work is related to the handling of chemicals within the maquiladora, so software is needed to facilitate and speed up the labeling process and obtain information related to the handling of said products. the software must be easy to learn to use, so that the implementation and start using as soon as possible, it is intended to be an independent and distributed system with the use of a database, it will be executable in Windows with the possibility of being confirmed for another operating system in case it is required. 
 ## Product functions
 ## User characteristcs
 ## Constraints
