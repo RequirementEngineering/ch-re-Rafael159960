@@ -18,8 +18,20 @@ The rest of this document includes two other chapters as well as an appendix ann
 In the last chapter we will review the specified requirements, as well as a description of the different interfaces of the system, different techniques will be used to obtain the requirements in a more accurate way, adapting to the different users for which the software will be available, during the same Chapter will review the prioritization of the requirements. The appendices at the end of the document include all the results of the prioritization of requirements and a launching plan based on them.
 # Overall description
 ## Product perspective
-ChemicalLabels is aimed at different employees whose area of ​​work is related to the handling of chemicals within the maquiladora, so software is needed to facilitate and speed up the labeling process and obtain information related to the handling of said products. the software must be easy to learn to use, so that the implementation and start using as soon as possible, it is intended to be an independent and distributed system with the use of a database, it will be executable in Windows with the possibility of being confirmed for another operating system in case it is required. 
+ChemicalLabels is aimed at different employees whose area of work is related to the handling of chemicals within the maquiladora, so software is needed to facilitate and speed up the labeling process and obtain information related to the handling of said products. the software must be easy to learn to use, so that the implementation and start using as soon as possible, it is intended to be an independent and distributed system with the use of a database, it will be executable in Windows with the possibility of being confirmed for another operating system in case it is required. 
 ## Product functions
+This system is made up of two main functions, the first one that focuses on generating labels according to the information provided by the user, being supported by a database which will contain all the information necessary for the handling of high risk products, focusing on the chemicals and the regulations that regulate it, so when a user enters the type of chemist or product with which they are working as well as some extra specifications that are needed the software will search within the database for all the information regarding that product , likewise there will be two options to proceed in the program, the first one will generate a label for said chemical, to also print it if it is the case, the second option will lead to print a report on how the chemical should be handled, the reports will be handled by levels: for newly admitted personnel and advanced staff in the subject.
+
+|Class of use cases  |     Use cases    |    Description   |
+|--------------------|:----------------:|:-----------------:|
+| Use case related to installation | Installation | Creates and initializes working files |
+| System authorization | Login | choose the form in which the program will be executed. To configure or query |
+| | Change password | change the password for the administrator |
+|Use cases related to query | create Queries | specify the product to review
+| | modify the query | change the specific data of the product search
+| | new query | resets the search fields of the query to create a new one
+|
+
 ## User characteristcs
 ## Constraints
 ## Assumptions and dependencies
