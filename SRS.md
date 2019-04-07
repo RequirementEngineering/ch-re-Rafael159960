@@ -44,15 +44,24 @@ Chemical.Labels should be based on the following use cases:
 | | create a label | a label based on the query and the regulations of the product sought |
 | Use case related to print | print the report | the previously created report is printed |
 | | print the label | the previously created label is printed |
+| Cases of uses related to the configuration | configuration of the format of the documents | The administrator can specify the format in which the report will be created (typeface, spacing, etc.) |
+| | configuration of the format of the labels | The administrator can specify the format in which the labels will be created |
 ## User characteristcs
 Regarding the characteristics of users will be two types to which the system is directed, in the following table are described:
 
-| User | Description |
+| Actors | Description |
 |:----:|:------------|
 | Administrator | the administrator will have access to various functions within the system that will allow him to modify the information within the database for which a password will be required. The administrator should be instructed in the operation of the program, and how it should be configured. You should have knowledge about the products handled within the maquiladora, as well as the employees that will have access to the system. |
 | Employee | The employee will have access to only the main functions of the system, being these the query of reports, generate labels and print these things. For the use of these functions, only the base knowledge (principally names and relationships of treated chemicals) will be required on the products that are handled. |
 ## Constraints
+* 
 ## Assumptions and dependencies
+### Assumptions
+* Assumed that the software system has no database limit.
+* it is assumed that the system will be able to generate documents based on the configuration of the administrator.
+### Dependencies 
+* the system requires an internet connection to update the database and make your queries.
+* The data must be entered correctly in the query to find the match within the database.
 # Specific requirements
 ## Appendixes
 ## Index
