@@ -10,6 +10,9 @@ Using a database connected to an external server that will be updating informati
 
 The software is exclusive for maquiladoras and companies that require the use of labels in their handling of chemical products with safety rules, seeks to obtain a database that beyond the generation of labels may have information of easy access to the handling of chemicals and other products with special management requirement.
 ## Definitions, acronyms and abbreviations
+Maquiladora: factory, assembly plant.
+Chemical product: Products that are formed based on chemical reactions.
+High risk: chemicals that contain a great risk to human or environmental health.
 ## References
 ## Overview
 The rest of this document includes two other chapters as well as an appendix annex.
@@ -41,8 +44,13 @@ Chemical.Labels should be based on the following use cases:
 | | create a label | a label based on the query and the regulations of the product sought |
 | Use case related to print | print the report | the previously created report is printed |
 | | print the label | the previously created label is printed |
-
 ## User characteristcs
+Regarding the characteristics of users will be two types to which the system is directed, in the following table are described:
+
+| User | Description |
+|:----:|:------------|
+| Administrator | the administrator will have access to various functions within the system that will allow him to modify the information within the database for which a password will be required. The administrator should be instructed in the operation of the program, and how it should be configured. You should have knowledge about the products handled within the maquiladora, as well as the employees that will have access to the system. |
+| Employee | The employee will have access to only the main functions of the system, being these the query of reports, generate labels and print these things. For the use of these functions, only the base knowledge (principally names and relationships of treated chemicals) will be required on the products that are handled. |
 ## Constraints
 ## Assumptions and dependencies
 # Specific requirements
