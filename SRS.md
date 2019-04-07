@@ -32,7 +32,15 @@ Chemical.Labels should be based on the following use cases:
 |Use cases related to query | create Queries | specify the product to review |
 | | modify the query | change the specific data of the product search |
 | | new query | resets the search fields of the query to create a new one |
-|Use case related to  | 
+|Use case related to database | connection | Connect to database |
+| | find information | look for the query within the database |
+| | enter new information | the administrator can enter new information into the database as required |
+| | modify information | the administrator can modify the information found in the database |
+| | Delete information | the administrator can delete information that is in the database as required |
+| Use case related to create documents | create a report | A report based on the query is created |
+| | create a label | a label based on the query and the regulations of the product sought |
+| Use case related to print | print the report | the previously created report is printed |
+| | print the label | the previously created label is printed |
 
 ## User characteristcs
 ## Constraints
