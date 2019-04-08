@@ -63,5 +63,9 @@ Regarding the characteristics of users will be two types to which the system is 
 * the system requires an internet connection to update the database and make your queries.
 * The data must be entered correctly in the query to find the match within the database.
 # Specific requirements
+## External Interfaces
+Here is how the system works for each menu:
+* Login Menu: Once the program is started, the first screen will be displayed, which will have an option to continue depending on the administrator or employee. In case of being an administrator, a password will be requested.
+* Main Menu: The main menu will have a series of options and text boxes to specify the query
 ## Appendixes
 ## Index
