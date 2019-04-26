@@ -11,9 +11,13 @@ Using a database connected to an external server that will be updating informati
 The software is exclusive for maquiladoras and companies that require the use of labels in their handling of chemical products with safety rules, seeks to obtain a database that beyond the generation of labels may have information of easy access to the handling of chemicals and other products with special management requirement.
 ## Definitions, acronyms and abbreviations
 Maquiladora: factory, assembly plant.
+
 Chemical product: Products that are formed based on chemical reactions.
+
 High risk: chemicals that contain a great risk to human or environmental health.
+
 ## References
+[1][Norma Oficial Mexicana NOM-010-STPS-2014, Agentes químicos contaminantes del ambiente laboral. Reconocimiento, evaluación y control.](https://www.ilo.org/dyn/natlex/docs/ELECTRONIC/101271/121935/F299513823/NOM-018-STPS-2015.pdf)
 ## Overview
 The rest of this document includes two other chapters as well as an appendix annex.
  The next chapter will talk about the general description of the system as well as its functionality and perspective. The interaction between the interested parties and the interface of the system, the level required to use it and manage it efficiently. a review will be given to the rejections of the systems as well as the assumptions and dependencies, emphasizing in this last position that the level of the system will require the intervention of specified users that configure the system as required in case of updates in the use mode according to look like the company.
@@ -67,5 +71,46 @@ Regarding the characteristics of users will be two types to which the system is 
 Here is how the system works for each menu:
 * Login Menu: Once the program is started, the first screen will be displayed, which will have an option to continue depending on the administrator or employee. In case of being an administrator, a password will be requested.
 * Main Menu: The main menu will have a series of options and text boxes to specify the query
+## Logical Data Base requirements
+The system connects with a database containing three tables that will be described in the following:
+
+*Label table* contains the following attributes:
+
+* chemical code(foreing key)
+
+* Warning code(foreign key)
+
+* symbol
+
+* word of warning
+
+* indication of danger
+
+* prudence advice code(foreing key)
+
+*chemical tables*
+
+* Warning code(foreign key)
+
+* prudence advice code(foreing key)
+
+* chemical code(primary key)
+
+* name
+
+* physicochemical properties
+
+*prudence advice* 
+
+* prudence advice code(primary key)
+
+* description 
+
+*Warning*
+
+* Warning code(primary key)
+
+* description
+
 ## Appendixes
 ## Index
