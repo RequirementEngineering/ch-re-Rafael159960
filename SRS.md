@@ -71,7 +71,18 @@ Regarding the characteristics of users will be two types to which the system is 
 ## External Interfaces
 Here is how the system works for each menu:
 * Login Menu: Once the program is started, the first screen will be displayed, which will have an option to continue depending on the administrator or employee. In case of being an administrator, a password will be requested.
-* Main Menu: The main menu will have a series of options and text boxes to specify the query
+* Main Menu: The main menu will have a series of options and text boxes to specify the query: 
+In the event that you are logged in as an administrator apart from having the text boxes and options to specify the query, you will have an extra button to go to the program configuration screen. Within the specifications for the query will have two buttons to track one of the following two screens. One will take you to the label generation screen and the other will take you to the report generation screen.
+
+* Label Screen: In this screen the image will be shown in the first instance showing an example of what the label would be according to the query made in the previous screen, you will have several options, you can go back to the previous screen to modify the query, accept the label and go to the print screen, generate a report of the created label.
+
+* Report screen: Within this screen an example of the generated document will be shown based on the query of the previous screen, it will contain several options. You can print the report by going to the print screen, return to the previous screen to modify the query.
+
+* Printing screen: In this screen you will see several options to modify the printing that will be made (either of the label or a report). The number of prints can be modified, if it will be done in black and white or in color, and to which printer the printing will be sent.
+
+* Configuration screen: Within this screen the options are presented for the administrator to modify as required the operation of the software. Having thus a series of options to modify the relation of the labels and their form of impression, as well as the nature of the document (type of letter, size, margin, sangria, etc.)
+ Within said screen you will have the option to modify the information of the database, being able to add, delete or modify data as required.
+
 ## Logical Data Base requirements
 The system connects with a database containing three tables that will be described in the following:
 
