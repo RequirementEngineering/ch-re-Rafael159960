@@ -70,6 +70,12 @@ Regarding the characteristics of users will be two types to which the system is 
 # Specific requirements
 
 ## General use cases
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Casos%20de%20uso%20general.jpg)
+
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/tabla%20general.jpg)
+
+## Specific use case
 
 ## External Interfaces
 Here is how the system works for each menu:
