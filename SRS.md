@@ -76,7 +76,14 @@ Regarding the characteristics of users will be two types to which the system is 
 ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/tabla%20general.jpg)
 
 ## Specific use case
+### LOGIN
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/admin-login.jpg)
 
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/tabla%20admin-login.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/empleado-login.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/tabla%20empleado-login.jpg)
 ## External Interfaces
 Here is how the system works for each menu:
 * Login Menu: Once the program is started, the first screen will be displayed, which will have an option to continue depending on the administrator or employee. In case of being an administrator, a password will be requested.
