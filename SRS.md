@@ -84,6 +84,33 @@ Regarding the characteristics of users will be two types to which the system is 
 ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/empleado-login.jpg)
 
 ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/tabla%20empleado-login.jpg)
+
+## CONSULTAS
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Consultas%20admin.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Tabla%20cons%20admin.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Consultas%20empleado.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Tabla%20cons%20empleado.jpg)
+
+## DOCUMENTOS
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/documentos%20administrador.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/tabla%20doc%20admin.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/documentos%20empleado.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Tabla%20doc%20empleado.jpg)
+
+## CONFIGURACION
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/configuracion%20administrador.jpg)
+
+![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Tabla%20conf.jpg)
+
 ## External Interfaces
 Here is how the system works for each menu:
 * Login Menu: Once the program is started, the first screen will be displayed, which will have an option to continue depending on the administrator or employee. In case of being an administrator, a password will be requested.
