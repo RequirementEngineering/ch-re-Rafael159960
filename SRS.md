@@ -1,27 +1,51 @@
-##                                    Universidad Autonoma de Ciudad Juarez
+<p align="center">
+Universidad Autónoma de Ciudad Juárez</br>
+División Multidisciplinaria de Ciudad Universitaria</br>
+Departamento de Ingeniería Electricidad y Computación</br>
+</p>
+<br>
+<p align="center">
+<img width="270" height="270" 
+  src="https://github.com/RequirementEngineering/ch-re-STDBrando/blob/master/Images/Escudo%20uacj%202015-color-sin%20fondo.png">
+</p>
+<br>
+<p align="right">
+Desarrollo de requisitos de software</br>
+</br>
+Chemical labels (SRS) </br>
+</br>
+Rafael Ernesto Cabrales Corral, 1599060</br>
 
-###                            División multidisciplinaria de ciudad universitaria
+</br>
 
-###                                    Instituto de ingeniería y tecnología
-                                           
-                                           
-                                           
-![Alt text](https://camo.githubusercontent.com/0d4abaf638c2c273214dd6e79673fc484f12fd93/687474703a2f2f7777772e7561636a2e6d782f636f6d756e69636163696f6e2f5075626c697368696e67496d616765732f45736375646f2532305541434a253230323031352f45736375646f2532307561636a253230323031352d636f6c6f722d73696e253230666f6e646f2e706e67)
-                                          
-                                          
-                                          
-                                          
-##                                        Chemical labels project (SRS)
-                                               
-###                                       Rafael Ernesto Cabrales Corral
+</br>
+May 2019
+</p>
 
-####                                                159960
- 
-####                                  Development of software requeriments
-#####                                             May 2019
+# Table of contents
+1. [Introduction](#Introduction)
+    - [Purpose](#Purpose)
+    - [Scope](#Scope)
+    - [Definitions, acronyms, and abbreviations](#Definitions-acronyms-and-abbreviations)
+    - [References](#References)
+    - [Overview](#Overview)
 
-
-
+2. [Overrall description](#Overall-description)
+    - [Product perspective](#Product-perspective)
+     -[Product Functions](#Product-Functions) 
+    -[Uses Cases](#Uses-cases)
+    - [User characteristics](#User-characteristics)
+    - [Constrains](#Constrains)
+    - [Assumptions and dependencie](#Assumptions-and-dependencie)
+3. [Specific requirements](#Specific-requirements)
+      - [Functional requirements](#Functional-requirements)
+       - [Non functional requirements](#Non-functional-requirements) 
+    - [General use case](# General-use-case)
+    - [External Interfaces](#External-Interfaces)
+    - [Logical Data Base requirements](#Logical-Data-Base-requirements)
+3. [Appendix](#Appendix) 
+   - [Elicitation process](#Elicitation-process)
+   - [Business Managment Process](#Business-Process-Diagrams)
 
 ---
 # Introduction
@@ -55,6 +79,8 @@ In the last chapter we will review the specified requirements, as well as a desc
 Chemical.Labels is aimed at different employees whose area of work is related to the handling of chemicals within the maquiladora, so software is needed to facilitate and speed up the labeling process and obtain information related to the handling of said products. the software must be easy to learn to use, so that the implementation and start using as soon as possible, it is intended to be an independent and distributed system with the use of a database, it will be executable in Windows with the possibility of being confirmed for another operating system in case it is required. 
 ## Product functions
 This system is made up of two main functions, the first one that focuses on generating labels according to the information provided by the user, being supported by a database which will contain all the information necessary for the handling of high risk products, focusing on the chemicals and the regulations that regulate it, so when a user enters the type of chemist or product with which they are working as well as some extra specifications that are needed the software will search within the database for all the information regarding that product , likewise there will be two options to proceed in the program, the first one will generate a label for said chemical, to also print it if it is the case, the second option will lead to print a report on how the chemical should be handled, the reports will be handled by levels: for newly admitted personnel and advanced staff in the subject.
+
+## Uses Cases
 
 Chemical.Labels should be based on the following use cases:
 
@@ -114,7 +140,7 @@ The user can send to print the documents when ready.
 
 4.- How to handle the chemical
 
-## General use cases
+## General use case
 ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Casos%20de%20uso%20general.jpg)
 
 
