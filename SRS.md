@@ -176,4 +176,27 @@ The system connects with a database containing three tables that will be describ
 All the data described here that are required for the creation of the labels are based on the norm-018-STPS-2015.[1]
 
 ## Appendixes
+### Elicitation Process
+
+The process with which the client's requirements for the software were obtained was through an interview with the head of the area where the system will be used. First, he gave a general outline of how he would expect the program to be and the main things he needed so that he would be optimal in the work area.
+
+#### General view:
+The client was looking for reliable software when looking for information and as simple as possible so that employees could understand its operation without taking much time.
+He described it as "a direct use program that may be able to generate labels and reports without the need to take a lot of time" (Anonymous, 2019)
+It was requested that the main function of the software was to be able to generate labels to mark chemists following the regulations that are required to the company, likewise power from the application to send the impression of said labels.
+
+#### Conclusions:
+
+Based on general questions made to the client, different conclusions could be reached in the expected areas.
+
+ - The information search method to generate the documents has to be simple and with general fields to fill to speed up the process.
+ - To be able to generate both labels and reports of the chemicals that will be sought.
+ - The client requests that an administrator can be had to configure details of the documents.
+ - Having a database that contains the information of the chemicals that are generated, the administrator can modify it, adding information, modifying the existing one and eliminating the obsolete one.
+ - The administrator requires a password to be able to enter the configuration screen.
+ - The program connects with a printer to send to print the files, in the same way you can download them to print from the computer's method.
+ 
+ At the end, what was said with the client was reviewed so that the whole scheme could be confirmed, other participants were taken (potential actors of the system) but it was informed by the area manager that a meeting had been made internally, according to what would be asked for. the system, she being the spokesperson.
+ 
+ ### Business process diagrams.
 ## Index
