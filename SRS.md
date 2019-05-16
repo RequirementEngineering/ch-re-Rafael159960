@@ -82,7 +82,7 @@ The user can send to print the documents when ready.
 
 1.- Basic information of the chemical
 
-2. Advetences
+2.- Advetences
 
 3.- Health risk
 
