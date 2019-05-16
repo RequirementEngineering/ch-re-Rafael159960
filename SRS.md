@@ -68,6 +68,25 @@ Regarding the characteristics of users will be two types to which the system is 
 * the system requires an internet connection to update the database and make your queries.
 * The data must be entered correctly in the query to find the match within the database.
 # Specific requirements
+## Functional Requirements
+
+The software will allow the user to enter information that will be divided into fields (being keywords, specific details about the chemicals that are searched) for the location of the required data.
+Also entering the system as an administrator you can update the stored data, you can delete, modify or create new data, you can also configure the details of the documents that are generated (labels and reports).
+The user can send to print the documents when ready.
+
+## Non-functional requirements
+- It connects to a database.
+- The system uses a database to compare the data provided by the user and thus obtain the information required to generate a label or report as the user wants.
+- The system joins the data found in the database to create a label, using as a basis the information of company regulation[1] thus generating a test image for the user to confirm the label.
+- The system joins the data found in the database to create a report about the chemical of interest, thus joining all the regulations found in NOM-018-STPS-2015 [1]. Following an order:
+
+1.- Basic information of the chemical
+
+2. Advetences
+
+3.- Health risk
+
+4.- How to handle the chemical
 
 ## General use cases
 ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/Use%20case/Casos%20de%20uso%20general.jpg)
