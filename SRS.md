@@ -40,7 +40,7 @@ May 2019
 3. [Specific requirements](#Specific-requirements)
       - [Functional requirements](#Functional-requirements)
        - [Non functional requirements](#Non-functional-requirements) 
-    - [General use case](# General-use-case)
+    - [General use case](#General-use-case)
     - [External Interfaces](#External-Interfaces)
     - [Logical Data Base requirements](#Logical-Data-Base-requirements)
 3. [Appendix](#Appendix) 
