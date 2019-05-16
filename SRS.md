@@ -218,4 +218,11 @@ Based on general questions made to the client, different conclusions could be re
  At the end, what was said with the client was reviewed so that the whole scheme could be confirmed, other participants were taken (potential actors of the system) but it was informed by the area manager that a meeting had been made internally, according to what would be asked for. the system, she being the spokesperson.
  
  ### Business process diagrams.
+
+ ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/BMD/BMD%20general.jpg)
+ 
+ ##### Configuration diagram.
+ ![Alt text](https://github.com/RequirementEngineering/ch-re-Rafael159960/blob/master/BMD/diagrama%20de%20configuracion.jpg)
+ 
+ 
 ## Index
